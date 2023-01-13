@@ -2,8 +2,6 @@
   This is a sample GPT-3 bot that uses the Promptable API to get a prompt and config
   and then uses the OpenAI API to generate a response.
 
-  If you don't want to use Promptable, you can just hard-code your prompt and config
-  somewhere in this file and replace the call to the Promptable API with a local call.
 */  
 
 const { Configuration, OpenAIApi } = require("openai");
